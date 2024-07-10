@@ -9,6 +9,7 @@ Cette démarche vise à présenter des leviers d’amélioration de la qualité 
 -Un dashboard sur la qualité de l’air en Auvergne Rhonalpes, entre 2018 et 2024.
 -Un modèle de machine learning (Régression et classification).
 
-#1- Source des données:
-
+## Table of Contents
+<a name="general-info"></a>
+### General Info
 
