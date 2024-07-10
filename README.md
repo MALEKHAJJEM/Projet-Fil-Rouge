@@ -7,4 +7,4 @@ Pendant 8 semaines une équipe de 3 stagaires s’est lancée dans une démarche
 Cette démarche vise à présenter des leviers d’amélioration de la qualité de l’air avec  :
 
 -Un dashboard sur la qualité de l’air en Auvergne Rhonalpes, entre 2018 et 2024.
--Un modèle de machine learning (Régression et classification ).
+-Un modèle de machine learning (Régression et classification).
