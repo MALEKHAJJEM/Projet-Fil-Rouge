@@ -1,5 +1,5 @@
 # Projet-File-Rouge
-Surveillance et Prédiction de la qualité de l’air dans la Région Auvergne-Rhône-Alpes​\\
+Surveillance et Prédiction de la qualité de l’air dans la Région Auvergne-Rhône-Alpes​
 
 Dans le cadre d'une formation aux métiers de « data analyst » sur une période de 3 mois, notre équipe a pris  en charge de la réalisation du cas d’usage opérationnel des données est composée de Data Analysts juniors, disposant de compétences sur la gestion des bases de données, la création de dashboards (datavisualisation), et la conceptualisation des modèles de machine learning.
 
