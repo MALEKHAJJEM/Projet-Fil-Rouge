@@ -10,6 +10,5 @@ Cette démarche vise à présenter des leviers d’amélioration de la qualité 
 -Un modèle de machine learning (Régression et classification).
 
 ## Source de données
-<a name="general-info"></a>
 ### General Info
 
