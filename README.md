@@ -40,7 +40,7 @@ Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont p
 Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job [talend parent](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Job%20parant.png).
 
 
-1. Ce job commence par :
+1. Parent job:
 
 
 -  Récupérer la liste des fichiers : tfileFetch : le but est de télécharger la liste de tous les fichiers d'une année donnée à partir de [https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/old/].
