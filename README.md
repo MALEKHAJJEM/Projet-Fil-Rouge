@@ -48,7 +48,8 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 + Lecture 2020.xml ligne par ligne (chaque <a>) (les nom des fichier xml): TfileinputXML
 - Stocker l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier)
 - Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste.
-- Une fois les telechargements sont faites, on passe à Tfileliste qui appelle un [Child job](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Jobchild.png).
+- Une fois les telechargements sont faites, on passe à Tfileliste qui appelle un [Child job](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Jobchild.png). ![New data](./image/Jobchild.png "Talend child")
+
 2. Child job:
 - Lire chaque fois le XML input
 - Extraire les premières colonnes à travers TJavaRow 
