@@ -73,6 +73,10 @@ StartTime;EndTime;Verification;Validity;Value;polluant;localisation;ORGANISME;Re
 
 Cette étapes consiste à homgéniser les données obtenus afin d'avoir de données homogénes. 
 
+### 1- Extraire les données de Auvergne rhone alpes à travers le script [Extraction_info_lyon.py](./Notebook/scraping_data.py).
+
+
+
 
 
 
