@@ -14,7 +14,7 @@ Cette démarche vise à présenter des leviers d’amélioration de la qualité 
 ### Fichier CSV
 Les données ont été colléctés à partir de [https://www.data.gouv.fr/fr/datasets/donnees-temps-reel-de-mesure-des-concentrations-de-polluants-atmospheriques-reglementes-1/].
 
-Un premier Script applé scraping_data sert à télécharger les fichier csv en local. Ces données CSV sont des données relatievement récents qui date de 2021 à 2024.
+Un premier Script applé [scraping_data.py](./notebook/scraping_data.py) sert à télécharger les fichier csv en local. Ces données CSV sont des données relatievement récents qui date de 2021 à 2024.
 Ces données d’observation accessibles sur le site [http://data.gouv.fr] sont issues de la surveillance réglementaire de la qualité de l’air. Elles décrivent les concentrations moyennes horaires des polluants réglementés surveillés par des appareils de mesure automatiques installés sur des stations fixes.
 
 Exemple de ficheirs CSV: 
