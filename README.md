@@ -48,9 +48,7 @@ Ce job commence par :
 + Lecture 2020.xml ligne par ligne (chaque <a>) (les nom des fichier xml): TfileinputXML
 - Stocker l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier)
 - Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste.
-
-
-This site was built using [GitHub Pages](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Jobchild.png).
+- Une fois les telechargements sont faites, on passe à Tfileliste qui appelle un [Child job](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Jobchild.png).
 
 
 
