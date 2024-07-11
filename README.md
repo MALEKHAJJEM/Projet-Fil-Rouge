@@ -96,7 +96,7 @@ Calculer l'index de la qualité d'air pour chaque site  en 24h ainsi que la qual
 2. Concatener les nouveau colones calculer à la Dataframe initiale
 
 
-###Séparer les données trainning et test
+### Séparer les données trainning et test
 
 
 
