@@ -35,7 +35,7 @@ Date de début;Date de fin;Organisme;code zas;Zas;code site;nom site;type d'impl
 
 ### Fichier XML
 
-Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont pas as autoporteurs. Il doivent être interprétés à l’aide de données référentielles qui permettent la caractérisation précise de la mesure : localisation de la station, typologie de la station et du point de prélèvement, méthode de mesure utilisée, dates de fonctionnement… Ces informations sont contenues dans deux fichiers annexes, également téléchargeables sur le site et nommés « dataset B » et « dataset D ».*
+Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont pas as autoporteurs. Il doivent être interprétés à l’aide de données référentielles qui permettent la caractérisation précise de la mesure : localisation de la station, typologie de la station et du point de prélèvement, méthode de mesure utilisée, dates de fonctionnement… Ces informations sont contenues dans deux fichiers annexes, également téléchargeables sur le site et nommés « dataset B » et « dataset D ».
 
 Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job [talend parent](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Job%20parant.png).
 
@@ -53,6 +53,7 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 - Lire chaque fois le XML input
 - Extraire les premières colonnes à travers TJavaRow 
 - Ecrire dans un fichier temporaire pour faciliter TfileoutputDelimiter
+- Mapper le fichier avec Tmap pour extraire les colones necessiares à travers Tmap en utilisant les fichier de mapping précedement construits
 
 
 
