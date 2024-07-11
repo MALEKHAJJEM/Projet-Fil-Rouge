@@ -37,7 +37,19 @@ Date de début;Date de fin;Organisme;code zas;Zas;code site;nom site;type d'impl
 
 Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont pas as autoporteurs. Il doivent être interprétés à l’aide de données référentielles qui permettent la caractérisation précise de la mesure : localisation de la station, typologie de la station et du point de prélèvement, méthode de mesure utilisée, dates de fonctionnement… Ces informations sont contenues dans deux fichiers annexes, également téléchargeables sur le site et nommés « dataset B » et « dataset D ».*
 
-Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job talend parent ([https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Job%20parant.png]
+Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job talend parent ([https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Job%20parant.png].
+
+
+Ce job commence par :
+Récupérer la liste des fichiers : tfileFetch \item 
+le but est de télécharger la liste de tt les fichiers d'une année donnée (des liens URL) \item 
+ensuite on fait une pause pause le temps de faire la petite astuce pour pas que Talend bloque sur <hr>\item 
+ensuite on lit 2020.xml ligne par ligne (chaque <a>) (les nom des fichier xml)\item
+à chaque fois on stocke l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier) \item 
+Téléchargement des fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste \item 
+quand tt est fini \item 
+
+
 
 
 
