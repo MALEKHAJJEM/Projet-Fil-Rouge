@@ -39,8 +39,7 @@ Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont p
 
 Deux [fichiers de mapping]() ont été creer pour une utilisation ultérieurs 
 
-Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job ![New data](./img/ob%20parant.png"Talend parent")
-
+Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job ![New data](./img/Job%20parent.png "Talend job 2021-Now")
 
 [talend parent](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Job%20parant.png).
 
