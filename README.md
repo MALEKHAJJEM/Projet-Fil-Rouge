@@ -52,7 +52,7 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 2. Child job:
 - Lire chaque fois le XML input
 - Extraire les premières colonnes à travers TJavaRow 
-- Ecrire dans un fichier temporaire pour faciliter il lit chaque fois le XML input
+- Ecrire dans un fichier temporaire pour faciliter TfileoutputDelimiter
 
 
 
