@@ -81,14 +81,9 @@ script [Extraction_info_lyon.py](./Notebook/scraping_data.py).
    - Chargement des données dans un Dataframe
    -Aperçu des données: (1) Utiliser head voir un échantillon des données, (2) Utiliser info() pour obtenir des informations sur les types de données et les valeurs manquantes, (3) Utiliser describe() pour obtenir des statistiques descriptives sur les colonnes numériques.
 2. Nettoyage des données
-a. Gestion des valeurs manquantes
-Identifier les valeurs manquantes (isnull().sum()).
-Décider de les supprimer ou de les imputer (par exemple, en utilisant la moyenne, la médiane, ou d'autres techniques).
-b. Gestion des valeurs aberrantes
-Identifier les valeurs aberrantes à l'aide de visualisations (boîtes à moustaches, histogrammes).
-Décider de les traiter (par exemple, en les supprimant ou en les transformant).
-4. Analyse univariée
-Analyse des distributions de chaque variable individuellement.
+  -Gestion des valeurs manquantes: Identifier les valeurs manquantes (isnull().sum()).
+Décider de les supprimer 
+4. Analyse univariée : Analyse des distributions de chaque variable individuellement.
 Utilisation de visualisations telles que les histogrammes, les diagrammes en boîtes (box plots), et les diagrammes de densité.
 5. Analyse bivariée et multivariée
 a. Analyse des relations entre les variables
