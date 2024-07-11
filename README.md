@@ -39,7 +39,7 @@ Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont p
 
 Deux [fichiers de mapping]() ont été creer pour une utilisation ultérieurs 
 
-Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job ![New data](./image/Job%20parant.png "Talend Parent")
+Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job parent ![New data](./image/Job%20parant.png "Talend Parent")
 
 1. Parent job:
    
