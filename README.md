@@ -92,15 +92,9 @@ Visualisation des relations avec des diagrammes de dispersion, des heatmaps, des
 
 ## Feature engineering:
 1. Transformation des données  
-Normalisation (Min-Max Scaling) et standardisation (z-score) des variables pour les mettre sur une échelle commune.
-b. Encodage des variables catégorielles
-Utilisation de techniques comme le One-Hot Encoding, Label Encoding, et d'autres.
-c. Réduction de dimensionnalité
-Utilisation de techniques comme PCA (Principal Component Analysis) pour réduire le nombre de variables tout en conservant l'essentiel de l'information.
-7. Visualisation des données
-Utilisation de bibliothèques comme Matplotlib, Seaborn, et Plotly pour créer des visualisations informatives et interactives.
-8. Séparation des données
-Division des données en ensembles d'entraînement et de test (par exemple, avec train_test_split de scikit-learn).
+Calculer l'index de la qualité d'air pour chaque site  en 24h ainsi qie la qualité d'air globale en fonction de polluants2. Encodage des variables catégorielles
+
+
 
 
 
