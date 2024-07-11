@@ -37,7 +37,7 @@ Date de début;Date de fin;Organisme;code zas;Zas;code site;nom site;type d'impl
 
 Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont pas as autoporteurs. Il doivent être interprétés à l’aide de données référentielles qui permettent la caractérisation précise de la mesure : localisation de la station, typologie de la station et du point de prélèvement, méthode de mesure utilisée, dates de fonctionnement… Ces informations sont contenues dans deux fichiers annexes, également téléchargeables sur le site et nommés « dataset B » et « dataset D ».
 
-Deux [fichiers de mapping]() ont été creer pour une utilisation ultérieurs 
+Deux [fichiers de mapping](https://github.com/MALEKHAJJEM/Projet-File-Rouge/tree/main/Fichier%20de%20Mapping) ont été creer pour une utilisation ultérieurs 
 
 Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job parent ![New data](./image/Job%20parant.png "Talend Parent")
 
