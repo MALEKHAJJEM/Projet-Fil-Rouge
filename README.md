@@ -93,7 +93,10 @@ Visualisation des relations avec des diagrammes de dispersion, des heatmaps, des
 ## Feature engineering:
 1. Transformation des données  
 Calculer l'index de la qualité d'air pour chaque site  en 24h ainsi que la qualité d'air globale en fonction de polluants
+2. Concatener les nouveau colones calculer à la Dataframe initiale
 
+
+## Séparer les données trainning et test
 
 
 
