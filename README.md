@@ -43,16 +43,11 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 Ce job commence par :
 
 
-- George Washington
-* John Adams
-+ Thomas Jefferson
-
-
-- Récupérer la liste des fichiers : tfileFetch : le but est de télécharger la liste de tous les fichiers d'une année donnée à partir de [https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/old/].
--Faire une pause le temps de faire une manipulation manuel pour enlever la balise <hr> qui bloque Talend.
--Lecture 2020.xml ligne par ligne (chaque <a>) (les nom des fichier xml): TfileinputXML
--Stocker l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier)
--Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste
+-  Récupérer la liste des fichiers : tfileFetch : le but est de télécharger la liste de tous les fichiers d'une année donnée à partir de [https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/old/].
+*  Faire une pause le temps de faire une manipulation manuel pour enlever la balise <hr> qui bloque Talend.
++ Lecture 2020.xml ligne par ligne (chaque <a>) (les nom des fichier xml): TfileinputXML
+- Stocker l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier)
+- Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste
 
 
 
