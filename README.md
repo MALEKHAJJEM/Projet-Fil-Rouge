@@ -71,7 +71,7 @@ StartTime;EndTime;Verification;Validity;Value;polluant;localisation;ORGANISME;Re
 ```
 ## Prétraitement des données pour la machine Learning:
 
-Cette étapes consiste à homgéniser les données obtenus afin d'avoir une seule source de données normalisée. 
+Cette étapes consiste à homgéniser les données obtenus afin d'avoir de données homogénes. 
 
 
 
