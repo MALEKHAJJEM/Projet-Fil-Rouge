@@ -72,11 +72,42 @@ StartTime;EndTime;Verification;Validity;Value;polluant;localisation;ORGANISME;Re
 ## Prétraitement des données pour la machine Learning:
 
 Cette étapes consiste à homgéniser les données obtenus afin d'avoir de données homogénes. 
-
 ### 1- Extraire les données de Auvergne rhone alpes:
 script [Extraction_info_lyon.py](./Notebook/scraping_data.py).
 
+## Exploration de données :
 
+1. Compréhension des données
+   - Chargement des données dans un Dataframe
+   -Aperçu des données: (1) Utiliser head voir un échantillon des données, (2) Utiliser info() pour obtenir des informations sur les types de données et les valeurs manquantes, (3) Utiliser describe() pour obtenir des statistiques descriptives sur les colonnes numériques.
+2. Nettoyage des données
+a. Gestion des valeurs manquantes
+Identifier les valeurs manquantes (isnull().sum()).
+Décider de les supprimer ou de les imputer (par exemple, en utilisant la moyenne, la médiane, ou d'autres techniques).
+b. Gestion des valeurs aberrantes
+Identifier les valeurs aberrantes à l'aide de visualisations (boîtes à moustaches, histogrammes).
+Décider de les traiter (par exemple, en les supprimant ou en les transformant).
+4. Analyse univariée
+Analyse des distributions de chaque variable individuellement.
+Utilisation de visualisations telles que les histogrammes, les diagrammes en boîtes (box plots), et les diagrammes de densité.
+5. Analyse bivariée et multivariée
+a. Analyse des relations entre les variables
+Utilisation de matrices de corrélation pour les variables numériques.
+Visualisation des relations avec des diagrammes de dispersion, des heatmaps, des pair plots, etc.
+b. Analyse des interactions
+Analyse de la relation entre les variables catégorielles et numériques (par exemple, avec des box plots, des count plots).
+Analyse des interactions entre plusieurs variables (par exemple, avec des visualisations 3D).
+6. Transformation des données
+a. Normalisation et standardisation
+Normalisation (Min-Max Scaling) et standardisation (z-score) des variables pour les mettre sur une échelle commune.
+b. Encodage des variables catégorielles
+Utilisation de techniques comme le One-Hot Encoding, Label Encoding, et d'autres.
+c. Réduction de dimensionnalité
+Utilisation de techniques comme PCA (Principal Component Analysis) pour réduire le nombre de variables tout en conservant l'essentiel de l'information.
+7. Visualisation des données
+Utilisation de bibliothèques comme Matplotlib, Seaborn, et Plotly pour créer des visualisations informatives et interactives.
+8. Séparation des données
+Division des données en ensembles d'entraînement et de test (par exemple, avec train_test_split de scikit-learn).
 
 
 
