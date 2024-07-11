@@ -50,7 +50,7 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 - Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste.
 - Une fois les telechargements sont faites, on passe à Tfileliste qui appelle un [Child job](https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Jobchild.png).
 2. Child job:
-- lire chaque fois le XML input
+- Lire chaque fois le XML input
 - Extraire les premières colonnes à travers TJavaRow 
 - Ecrire dans un fichier temporaire pour faciliter il lit chaque fois le XML input
 
