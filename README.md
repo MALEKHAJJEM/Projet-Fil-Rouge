@@ -55,8 +55,30 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 - Extraire les premières colonnes à travers TJavaRow 
 - Ecrire dans un fichier temporaire pour faciliter TfileoutputDelimiter
 - Mapper le fichier avec Tmap pour extraire les colones necessiares à travers Tmap en utilisant les fichier de mapping précedement construits
-
-
+Un exemple de résultat obtenu est présenté comme suit:
+```
+StartTime;EndTime;Verification;Validity;Value;polluant;localisation;ORGANISME;RelevantEmissions;typologie
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;89.3;O3;Cheiron;ATMO SUD;Fond;rural regional
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;93.3;O3;Obs Haute-Provence;ATMO SUD;Fond;rural prés de ville
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;4.0;PM2.5;Obs Haute-Provence;ATMO SUD;Fond;rural prés de ville
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;11.0;PM10;Obs Haute-Provence;ATMO SUD;Fond;rural prés de ville
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;10.0;NO2;GAP JEAN JAURES;ATMO SUD;Trafic;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;9.0;PM2.5;GAP JEAN JAURES;ATMO SUD;Trafic;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;12.0;PM10;GAP JEAN JAURES;ATMO SUD;Trafic;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;30.3;NO2;NICE ARSON;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;23.3;O3;NICE ARSON;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;9.0;PM2.5;NICE ARSON;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;16.8;PM10;NICE ARSON;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;12.5;NO2;NICE PROMENADE;ATMO SUD;Trafic;Urbaine
+2018-10-09T07:00:00+00:00;2018-10-09T08:00:00+00:00;2;1;8.8;PM2.5;NICE PROMENADE;ATMO SUD;Trafic;Urbaine
+2018-10-09T07:00:00+00:00;2018-10-09T08:00:00+00:00;2;1;19.3;PM10;NICE PROMENADE;ATMO SUD;Trafic;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;11.0;NO2;GAP COMMANDERIE;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;47.3;O3;GAP COMMANDERIE;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;9.0;PM2.5;GAP COMMANDERIE;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;13.0;PM10;GAP COMMANDERIE;ATMO SUD;Fond;Urbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;13.5;NO2;CONTES 2;ATMO SUD;Fond;périurbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;15.8;PM10;CONTES 2;ATMO SUD;industrielle;périurbaine
+2018-10-09T23:00:00+00:00;2018-10-09T24:00:00+00:00;2;1;10.0;PM10;PEILLON;ATMO SUD;industrielle;périurbaine```
 
 
 
