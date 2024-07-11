@@ -41,8 +41,7 @@ Pour lire et extraires les données à partir de ces fichiers en structure XML, 
 
 
 Ce job commence par :
-Récupérer la liste des fichiers : tfileFetch \item 
-le but est de télécharger la liste de tt les fichiers d'une année donnée (des liens URL) \item 
+- Récupérer la liste des fichiers : tfileFetch : le but est de télécharger la liste de tous les fichiers d'une année donnée à partir de [https://files.data.gouv.fr/lcsqa/concentrations-de-polluants-atmospheriques-reglementes/old/]
 ensuite on fait une pause pause le temps de faire la petite astuce pour pas que Talend bloque sur <hr>\item 
 ensuite on lit 2020.xml ligne par ligne (chaque <a>) (les nom des fichier xml)\item
 à chaque fois on stocke l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier) \item 
