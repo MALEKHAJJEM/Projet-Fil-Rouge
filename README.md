@@ -91,7 +91,7 @@ Utilisation de matrices de corrélation pour les variables numériques.
 Visualisation des relations avec des diagrammes de dispersion, des heatmaps, des pair plots, etc.
 
 ## Feature engineering:
-6. Transformation des données
+1. Transformation des données
 a. Normalisation et standardisation
 Normalisation (Min-Max Scaling) et standardisation (z-score) des variables pour les mettre sur une échelle commune.
 b. Encodage des variables catégorielles
