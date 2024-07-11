@@ -85,10 +85,8 @@ script [Extraction_info_lyon.py](./Notebook/scraping_data.py).
 Décider de les supprimer 
 4. Analyse univariée : Analyse des distributions de chaque variable individuellement.
 Utilisation de visualisations telles que les histogrammes, les diagrammes en boîtes (box plots), et les diagrammes de densité.
-5. Analyse bivariée et multivariée
-a. Analyse des relations entre les variables
+5. Analyse bivariée et multivariée : Analyse des relations entre les variables
 Utilisation de matrices de corrélation pour les variables numériques.
-Visualisation des relations avec des diagrammes de dispersion, des heatmaps, des pair plots, etc.
 
 ## Feature engineering:
 1. Transformation des données  
