@@ -98,6 +98,8 @@ Calculer l'index de la qualité d'air pour chaque site  en 24h ainsi que la qual
 
 ### Séparer les données trainning et test
 
+Dnas notre projet, l'apprentissage automatique a été faite sur les données historique le but étant de prédire la qualité d'aire dee 2024.
+
 
 
 
