@@ -7,8 +7,8 @@ L'equipe est composée 3 stagaires, "Data Analysts juniors", disposant de compé
 Pendant 8 semaines on s’est lancée dans une démarche pédagogique et expérimentale sur la réalisation d’un prototype de réutilisation de données présentes en open data.  
 Cette démarche vise à présenter des leviers d’amélioration de la qualité de l’air avec  :
 
--Un dashboard sur la qualité de l’air en Auvergne Rhonalpes, entre 2018 et 2024.
--Un modèle de machine learning (Régression et classification).
+- Un dashboard sur la qualité de l’air en Auvergne Rhonalpes, entre 2018 et 2024.
+- Un modèle de machine learning (Régression et classification).
 
 ## Source de données
 ### Fichier CSV
