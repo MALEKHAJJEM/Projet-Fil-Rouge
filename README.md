@@ -75,7 +75,7 @@ Cette étapes consiste à homgéniser les données obtenus afin d'avoir de donn�
 ### 1- Extraire les données de Auvergne rhone alpes:
 script [Extraction_info_lyon.py](./Notebook/scraping_data.py).
 ### 2 -Merger les données historique
-### 3 Pivotage des polluants pour les prendre en compte en tant que features
+### 3- Pivotage des polluants pour les prendre en compte en tant que features
 ## Exploration de données :
 
 1. Compréhension des données
