@@ -49,10 +49,6 @@ Ce job commence par :
 - Stocker l'URL dans une variable à l'aide tjavaRow1( on garde que les fichier verifier)
 - Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste.
 
-  
-Cette job parent applle un job child [http://data.gouv.fr]
-
-
 
 
 
