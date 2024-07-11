@@ -19,7 +19,9 @@ Ces données d’observation accessibles sur le site [http://data.gouv.fr] sont 
 
 ### Fichier XML
 
-Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont pas as autoporteurs. Il doivent être interprété à l’aide de données référentielles qui permettent la caractérisation précise de la mesure : localisation de la station, typologie de la station et du point de prélèvement, méthode de mesure utilisée, dates de fonctionnement… Ces informations sont contenues dans deux fichiers annexes, également téléchargeables sur le site et nommés « dataset B » et « dataset D » (
+Ces des fichiers historiques qui datent de 2018 à 2020. Ces fichiers  ne sont pas as autoporteurs. Il doivent être interprétés à l’aide de données référentielles qui permettent la caractérisation précise de la mesure : localisation de la station, typologie de la station et du point de prélèvement, méthode de mesure utilisée, dates de fonctionnement… Ces informations sont contenues dans deux fichiers annexes, également téléchargeables sur le site et nommés « dataset B » et « dataset D ».
+
+
 
 
 
