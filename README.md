@@ -89,9 +89,8 @@ Utilisation de visualisations telles que les histogrammes, les diagrammes en bo�
 a. Analyse des relations entre les variables
 Utilisation de matrices de corrélation pour les variables numériques.
 Visualisation des relations avec des diagrammes de dispersion, des heatmaps, des pair plots, etc.
-b. Analyse des interactions
-Analyse de la relation entre les variables catégorielles et numériques (par exemple, avec des box plots, des count plots).
-Analyse des interactions entre plusieurs variables (par exemple, avec des visualisations 3D).
+
+### feature engineering:
 6. Transformation des données
 a. Normalisation et standardisation
 Normalisation (Min-Max Scaling) et standardisation (z-score) des variables pour les mettre sur une échelle commune.
