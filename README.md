@@ -50,12 +50,7 @@ Ce job commence par :
 - Télécharger les fichiers (tFileFetch) permet de télécharger fichier par fichier à partir des liste.
 
 
-Pour lire et extraires les données à partir de ces fichiers en structure XML, nous avons utilisé un job talend parent [https://github.com/MALEKHAJJEM/Projet-File-Rouge/blob/main/image/Job%20parant.png].
-
-
-
-
-
+This site was built using [GitHub Pages](https://pages.github.com/).
 
 
 
